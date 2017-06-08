@@ -1,11 +1,11 @@
 public class SqrtBinary {
-	
+
 	public static void main(String args[]) {
 		double[] inputs = {9, 16, 10, 6.7, 0.3};
 		for (int i = 0; i < inputs.length; i++) {
-			System.out.println(sqrt(inputs[i]));
+			System.out.println("Square Root of " + inputs[i] + " is: " + sqrt(inputs[i]));
 		}
-    }
+	}
     
 	private static double sqrt(double value) {
 		if (value < 0) {
