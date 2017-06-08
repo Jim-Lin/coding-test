@@ -30,9 +30,9 @@ public class SqrtBinary {
             double square = mid * mid;
 
             if (square == value) {
-               return mid;
+                return mid;
             } else if (square > value) {
-               high = mid;
+                high = mid;
             } else { // square < value
                 low = mid;
             }
