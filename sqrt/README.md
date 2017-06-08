@@ -17,6 +17,8 @@ Square Root of 0.3 is: 0.5477256774902344
 - http://blog.punkid.org/2008/02/28/compute-the-square-root-via-newtons-iteration/
 - https://www.youtube.com/watch?v=OOyPMKSggAE
 
+`y = f(x) = x^2 - n`
+
 ```
 Square Root of 9.0 is: 3.0
 Square Root of 16.0 is: 4.0
