@@ -19,7 +19,10 @@ public class BinaryTreePaths {
 
     private static List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<String>();
-        searchBT(root, "", paths);
+
+        if (root != null) {
+            searchBT(root, "", paths);
+        }
 
         return paths;
     }
@@ -30,8 +33,13 @@ public class BinaryTreePaths {
         if (node.left == null && node.right == null) {
             paths.add(path + val);
         } else {
-            searchBT(node.left, path + val + "->", paths);
-            searchBT(node.right, path + val + "->", paths);
+            if (node.left != null) {
+                searchBT(node.left, path + val + "->", paths);
+            }
+
+            if (node.right != null) {
+                searchBT(node.right, path + val + "->", paths);
+            }
         }
     }
 
