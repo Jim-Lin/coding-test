@@ -31,13 +31,14 @@ public class PalindromeLinkedList {
 
         ListNode fast = head, slow = head;
 
+        // find the middle node of the list
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        // whatever list size is odd or even, move to the first of the right half
-        // return list from the end of the right half to list middle
+        // whatever the size of the list is odd or even, move to the first node of the right half
+        // return list from the end node of the right half to the middle node of the list
         slow = reverse(slow.next);
 
         while (slow != null) {
