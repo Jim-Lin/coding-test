@@ -38,7 +38,7 @@ public class PalindromeLinkedList {
         }
 
         // whatever the size of the list is odd or even, move to the first node of the right half
-        // return list from the end node of the right half to the middle node of the list
+        // reverse list from the end node to the first node of right half
         slow = reverse(slow.next);
 
         while (slow != null) {

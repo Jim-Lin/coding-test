@@ -9,5 +9,5 @@ Could you do it in O(n) time and O(1) space?
 ### ref.
 - https://www.sigmainfy.com/blog/leetcode-palindrome-linked-list-o1-space.html
 
-#### Find the middle element of a linked list
-- Faster solution using 2 pointers https://coderbyte.com/algorithm/linked-list-middle-element
+  Find the middle element of a linked list
+  - Faster solution using 2 pointers https://coderbyte.com/algorithm/linked-list-middle-element
