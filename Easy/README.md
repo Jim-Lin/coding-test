@@ -1,0 +1,12 @@
+## LeetCode
+
+| No | |
+| -----:| -------------- |
+| 1 | [Two Sum](./2-sum) |
+| 344 | [Reverse String](./reverse-string) |
+| 345 | [Reverse Vowels of a String](./reverse-vowels-of-a-string) |
+| 66 | [Plus One](./plus-one) |
+| 155 | [Min Stack](./min-stack) |
+| 257 | [Binary Tree Paths](./binary-tree-paths) |
+| 231 | [Power of Two](./power-of-2) |
+| 234 | [Palindrome Linked List](./palindrome-linked-list) |
