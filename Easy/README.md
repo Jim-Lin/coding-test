@@ -10,3 +10,4 @@
 | 257 | [Binary Tree Paths](./binary-tree-paths) |
 | 231 | [Power of Two](./power-of-2) |
 | 234 | [Palindrome Linked List](./palindrome-linked-list) |
+| 136 | [Single Number](./single-number)
