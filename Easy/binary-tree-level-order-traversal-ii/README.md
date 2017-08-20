@@ -23,4 +23,4 @@ return its bottom-up level order traversal as:<br>
 </div>
 
 ### ref.
-- Root To Leaf Binary Tree Paths https://segmentfault.com/a/1190000003465753
+- Improve logic https://cheonhyangzhang.wordpress.com/2015/09/29/107-leetcode-java-binary-tree-level-order-traversal-ii-easy/
