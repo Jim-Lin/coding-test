@@ -9,3 +9,7 @@
 ## Shell Sort
 ### ref.
 - Shell Sequence http://www.stoimen.com/blog/2012/02/27/computer-algorithms-shell-sort/
+
+## Bubble Sort
+### ref.
+- fixed number of passes http://www.fredosaurus.com/notes-java/algorithms/sorting/sort-bubble.html
