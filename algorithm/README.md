@@ -13,3 +13,7 @@
 ## Bubble Sort
 ### ref.
 - fixed number of passes http://www.fredosaurus.com/notes-java/algorithms/sorting/sort-bubble.html
+
+## Selection Sort
+### ref.
+- Move every value only once https://www.leepoint.net/data/arrays/31arrayselectionsort.html
