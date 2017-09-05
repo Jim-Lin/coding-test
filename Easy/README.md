@@ -15,3 +15,4 @@
 | 206 | [Reverse Linked List](./reverse-linked-list) |
 | 88 | [Merge Sorted Array](./merge-sorted-array) |
 | 118 | [Pascal's Triangle](./pascals_triangle) |
+| 204 | [Count Primes](./count_primes) |
