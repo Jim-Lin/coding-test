@@ -16,6 +16,9 @@ For example, given <i>n</i> = 3, a solution set is:
 </pre>
 </div>
 
+### thinking
+- Depth-First Search Algorithm DFS  
+  https://www.youtube.com/watch?v=tlPuVe5Otio
+
 ### ref.
 - http://buttercola.blogspot.tw/2014/08/leetcode-generate-parentheses.html
-- [Depth-First Search Algorithm DFS](https://www.youtube.com/watch?v=tlPuVe5Otio)
