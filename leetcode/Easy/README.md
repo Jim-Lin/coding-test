@@ -12,5 +12,7 @@
 | 107 | [Binary Tree Level Order Traversal II](./binary-tree-level-order-traversal-ii) |
 | 206 | [Reverse Linked List](./reverse-linked-list) |
 | 88 | [Merge Sorted Array](./merge-sorted-array) |
-| 118 | [Pascal's Triangle](./pascals_triangle) |
-| 204 | [Count Primes](./count_primes) |
+| 118 | [Pascal's Triangle](./pascals-triangle) |
+| 204 | [Count Primes](./count-primes) |
+| 412 | [Fizz Buzz](./fizz-buzz) |
+| 104 | [Maximum Depth of Binary Tree](./maximum-depth-of-binary-tree) |
