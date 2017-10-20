@@ -16,3 +16,4 @@
 | 204 | [Count Primes](./count-primes) |
 | 412 | [Fizz Buzz](./fizz-buzz) |
 | 104 | [Maximum Depth of Binary Tree](./maximum-depth-of-binary-tree) |
+| 371 | [Sum of Two Integers](./sum-of-two-integers) |
