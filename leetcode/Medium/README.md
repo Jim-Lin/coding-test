@@ -8,3 +8,4 @@
 | 94 | [Binary Tree Inorder Traversal](./binary-tree-inorder-traversal) |
 | 454 | [4Sum II](./4sum-ii) |
 | 384 | [Shuffle an Array](./shuffle-an-array) |
+| 46 | [Permutations](./permutations) |
