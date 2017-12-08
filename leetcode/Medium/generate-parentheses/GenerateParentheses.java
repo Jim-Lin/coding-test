@@ -14,7 +14,7 @@ public class GenerateParentheses {
         return result;
     }
 
-    private static void dfs(List<String> result, String s, int left, int right){
+    private static void dfs(List<String> result, String s, int left, int right) {
         if (left > right) {
             return;
         }
