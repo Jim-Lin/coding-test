@@ -11,5 +11,4 @@
 | 46 | [Permutations](./permutations) |
 | 322 | [Coin Change](./coin-change) |
 | 139 | [Word Break](./word-break) |
-| 139 | [Word Break](./word-break) |
 | 274 | [H-Index](./h-index) |
