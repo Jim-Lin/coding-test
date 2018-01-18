@@ -12,12 +12,11 @@ public class Q1 {
         stack.push(4);
         stack.push(5);
 
-        fourSumCount(stack);
-
-        System.out.println("there are " + stack);
+        q1(stack);
+        System.out.println(stack);
     }
 
-    private static void fourSumCount(Stack<Integer> stack) {
+    private static void q1(Stack<Integer> stack) {
         Queue<Integer> queue = new LinkedList<Integer>();
         int size =  stack.size();
 
