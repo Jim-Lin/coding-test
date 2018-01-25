@@ -4,5 +4,5 @@
 - http://yuanhsh.iteye.com/blog/2181936
 - https://www.geeksforgeeks.org/?p=25866
 
-![probability](dHm8b.gif?raw=true)
+![probability](dHm8b.gif?raw=true)  
 from https://stackoverflow.com/a/23352100/4436392
