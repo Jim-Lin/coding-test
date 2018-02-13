@@ -20,8 +20,7 @@ public class Q27 {
         };
         Stack<Character> stack = new Stack<>();
 
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+        for (char c : s.toCharArray()) {
             if (map.get(c) == null) {
                 stack.push(c);
             } else if (map.get(c) != stack.pop()) {
