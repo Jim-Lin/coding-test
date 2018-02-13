@@ -29,6 +29,7 @@ public class Q33 {
                     }
                 }
 
+                // num greater than all elements of list
                 if (size == list.size()) {
                     list.add(num);
                 }
@@ -42,17 +43,13 @@ public class Q33 {
                         break;
                     }
                 }
-
-                if (size == list.size()) {
-                    list.add(size / 2 + 1, num);
-                }
             }
 
             size = list.size();
             if (size % 2 == 0) {
                 median = (Float.valueOf(list.get(size / 2 - 1)) + Float.valueOf(list.get(size / 2))) / 2;
             } else {
-                median = Float.valueOf(list.get(size / 2));
+                median = list.get(size / 2);
             }
 
             System.out.println(median);
