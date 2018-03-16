@@ -10,7 +10,7 @@ public class SumTwoIntegers {
         }
 
         if (b == 0) {
-            return b;
+            return a;
         }
 
         while (b != 0) {
