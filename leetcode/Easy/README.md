@@ -18,3 +18,4 @@
 | 104 | [Maximum Depth of Binary Tree](./maximum-depth-of-binary-tree) |
 | 371 | [Sum of Two Integers](./sum-of-two-integers) |
 | 283 | [Move Zeroes](./move-zeroes) |
+| 766 | [Toeplitz Matrix](./toeplitz-matrix) |
