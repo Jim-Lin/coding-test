@@ -31,7 +31,7 @@ public class Q163 {
                         stack.push(stack.pop() * stack.pop());
                         break;
                     case '/':
-                        stack.push(((Double) ((1.0 / stack.pop()) * stack.pop())).intValue());
+                        stack.push(((Double) (1.0 / stack.pop() * stack.pop())).intValue());
                         break;
                 }
             }
