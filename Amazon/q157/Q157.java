@@ -1,3 +1,6 @@
+import java.util.Map;
+import java.util.HashMap;
+
 public class Q157 {
 
     public static void main(String args[]) {
@@ -6,16 +9,20 @@ public class Q157 {
     }
 
     private static boolean q157(String s) {
-        int left = 0;
-        int length = s.length();
-        int right = length % 2 == 0 ? length - 1 : length - 2;
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
 
-        for (; left < right; left++, right--) {
-            if (s.charAt(left) != s.charAt(right)) {
-                return false;
+        char[] ary = s.toCharArray();
+        for (char c : ary) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        int odd = 0;
+        for (Integer v : map.values()) {
+            if (v % 2 != 0) {
+                odd++;
             }
         }
 
-        return true;
+        return (odd > 1) ? false : true;
     }
 }
