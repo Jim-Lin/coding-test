@@ -1,25 +1,6 @@
 import java.util.Random;
-import java.util.function.Supplier;
 
 public class Q175 {
-
-    private static Supplier<Character> stateSupplier(double[] probabilities) {
-        return () -> {
-            double c = probabilities[2];
-            double b = probabilities[2] + probabilities[1];
-            double a = probabilities[2] + probabilities[1] + probabilities[0];
-            Random rand = new Random();
-            double value = rand.nextDouble();
-
-            if (value < c) {
-                return 'c';
-            } else if (value < b) {
-                return 'b';
-            } else {
-                return 'a';
-            }
-        };
-    }
 
     public static void main(String args[]) {
         int[] result = q169(new double[]{1.0, 0, 0}, 5000);
@@ -31,7 +12,7 @@ public class Q175 {
 
         while (num_steps > 0) {
             start = getProbabilities(start);
-            char state = stateSupplier(start).get();
+            char state = getState(start);
 
             if (state == 'a') {
                 result[0] += 1;
@@ -55,5 +36,21 @@ public class Q175 {
         result[2] = start[0] * 0.025 + start[1] * 0.05 + start[2] * 0.5;
 
         return result;
+    }
+
+    private static Character getState(double[] probabilities) {
+        double c = probabilities[2];
+        double b = probabilities[2] + probabilities[1];
+        double a = probabilities[2] + probabilities[1] + probabilities[0];
+        Random rand = new Random();
+        double value = rand.nextDouble();
+
+        if (value < c) {
+            return 'c';
+        } else if (value < b) {
+            return 'b';
+        } else {
+            return 'a';
+        }
     }
 }
